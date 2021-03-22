@@ -1,0 +1,22 @@
+{
+  "partitions": [
+    {
+      "label": "BOOT",
+      "filesystem_type": "FAT",
+      "mkfs_options": "-F 32",
+      "partition_size_nominal": 128,
+      "want_maximised": false,
+      "uncompressed_tarball_size": 7,
+      "requires_partition_number": 6
+    },
+    {
+      "label": "Windows",
+      "filesystem_type": "ntfs",
+      "partition_size_nominal": 20468,
+      "want_maximised": true,
+      "empty_fs": true,
+      "uncompressed_tarball_size": 16427,
+      "requires_partition_number": 2
+    }
+  ]
+}
