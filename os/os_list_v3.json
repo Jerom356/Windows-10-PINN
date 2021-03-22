@@ -1,0 +1,22 @@
+{
+    "os_list": [
+        {
+            "description": "A Windows 10 for Arm pi3 devices",
+            "icon": "https://raw.githubusercontent.com/JeromTWin10Lyt/Windows-10-PINN/master/win10arm/win10arm.png",
+            "marketing_info": "https://raw.githubusercontent.com/JeromTWin10Lyt/Windows-10-PINN/master/win10arm/marketing.tar",
+            "nominal_size": 20588,
+            "os_info": "https://raw.githubusercontent.com/JeromTWin10Lyt/Windows-10-PINN/master/win10arm/os.json",
+            "os_name": "Windows 10 Desktop",
+            "partitions_info": "https://raw.githubusercontent.com/JeromTWin10Lyt/Windows-10-PINN/master/win10arm/partitions.json",
+            "partition_setup": "https://raw.githubusercontent.com/JeromTWin10Lyt/Windows-10-PINN/master/win10arm/partition_setup.sh",
+            "release_date": "2020-10-24",
+            "supported_models": [
+                "Pi 3"
+            ],
+            "tarballs": [
+                "https://github.com/JeromTWin10Lyt/Windows-10-PINN/raw/master/win10arm/BOOT_Pi3B_Pi3B_plus.zip",
+                ""
+            ]
+        }
+    ]
+}
