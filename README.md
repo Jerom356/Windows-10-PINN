@@ -65,8 +65,10 @@ U don't need to copy finish.reg
 
 I have already copied finish.reg in C:\Windows\finish.reg
 
-# Lines
+#### Lines
 Or i copy and pasted his lines here
+
+##### starting of lines
 
 36. When you see the error "Windows installation cannot proceed", press SHIFT+F10. The command prompt will open.
 37. In the command prompt, enter 
@@ -99,3 +101,5 @@ shutdown /r /t 0
 ```
 in the command prompt to restart it.
 **Note: If entering the command does not restart Windows, restart it manually.**
+
+##### end of lines
