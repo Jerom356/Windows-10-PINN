@@ -113,4 +113,4 @@ Windows 10 ISO(not modified wim) https://empyreal96.github.io/Win10ARM64.html
 
 Fixing Error https://github.com/Comstepr/Win10-on-64-bit-Pi3
 
-Compressing Software https://www.7-zip.org
+Compress Software https://www.7-zip.org
