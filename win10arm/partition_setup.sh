@@ -4,18 +4,16 @@
 umount "$part1" "$part2"
 
 # mount partitions
-mkdir /tmp/Windows
+mkdir -p /tmp/Windows /tmp/boot
 mount -t ntfs "$part2" /tmp/Windows
+mount "$part1" /tmp/boot
 # don't try to edit this
 
-# extract install.wim for iso and extract install.wi
-# extract compressed file
+cd /tmp/Windows
 
 7z x Windows.rar -o /tmp/Windows
 
 rm Windows.rar
-
-cd /tmp/Windows
 
 # extract Windows.wim image
 
@@ -23,9 +21,11 @@ cd /tmp/Windows
 
 rm Windows.wim
 
-# pls wait some time to extract windows 10 imag
-# unmount partitions
-umount /tmp/1 /tmp/2
-rmdir /tmp/1 /tmp/2
+# copy C:\Windows\System32\winload.efi to X:\EFI\boot\bootaa64.efi
+# Warning:did u try to skip this , u can't see Windows 10's error also!
+cp /tmp/Windows/Windows/System32/winload.efi /tmp/boot/EFI/boot/bootaa64.efi
+
+umount /tmp/boot /tmp/Windows
+rmdir /tmp/boot /tmp/Windows
 
 exit 1
