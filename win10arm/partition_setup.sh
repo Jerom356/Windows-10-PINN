@@ -10,13 +10,13 @@ mount "$part1" /tmp/boot
 # don't try to edit this
 
 cd /tmp/Windows
-
+printf "Extracting Windows.wim
 7z x Windows.rar -o /tmp/Windows
 
 rm Windows.rar
 
 # extract Windows.wim image
-
+printf "Extracting Windows 10"
 7z x Windows.wim
 
 rm Windows.wim
