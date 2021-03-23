@@ -13,7 +13,7 @@ Installation of Windows 10 and Windows 10 booting will takes so long time (cooli
 
 You can use only uSD 32G without usb boot (usb boot also want 32G or above 32G)
 
-Sometimes it will shows "Windows 10 Installation Cannot Procced (when booting Windows 10 first time,can be fixed)
+Sometimes it will shows "Windows Installation Cannot Procced (when booting Windows 10 first time,can be fixed)
 
 If you want to install windows 10 immediately without thinking about this Disadvantages
 
@@ -55,7 +55,7 @@ Go to Boot manager>SD/MMC(if u use usb boot ,select uefi usb device)>Enter
 
 Now Windows 10 will boot safely
 
-If error has appear "Windows 10 Installation Cannot Procced"
+If error has appear "Windows Installation Cannot Procced"
 
 Follow [Comstepr/Win-10-on-64-bit-Pi3](https://github.com/Comstepr/Win10-on-64-bit-Pi3)
 
@@ -64,3 +64,38 @@ From 36th step To 55th Step
 U don't need to copy finish.reg
 
 I have already copied finish.reg in C:\Windows\finish.reg
+
+# Lines
+Or i copy and pasted his lines here
+
+36. When you see the error "Windows installation cannot proceed", press SHIFT+F10. The command prompt will open.
+37. In the command prompt, enter 
+```
+mmc
+```
+38. In mmc, click File, Add/Remove Snap-ins.
+39. Double-click Computer Management.
+40. Click Finish.
+41. Click Ok on the dialog box that says Event Viewer.
+42. Click Ok on the Add/Remove Snap-ins menu.
+43. In mmc, click Computer Management (Local), Local Users and Groups, Users.
+44. Double-click on the Administrator account.
+45. Uncheck Account is disabled.
+46. Right-click on the Administrator account and click Set Password.
+47. Click Proceed.
+48. Enter your password. You may leave the password blank.
+49. Click Ok on the Set Password dialog box.
+50. Click Ok on the Local Users and Groups dialog box.
+51. Close mmc.
+52. Click No.
+53. In the command prompt, navigate to the folder you copied the finish.reg to.
+54. In the command prompt, enter 
+```
+regedit finish.reg
+```
+55. Restart the Raspberry Pi or enter 
+```
+shutdown /r /t 0
+```
+in the command prompt to restart it.
+**Note: If entering the command does not restart Windows, restart it manually.**
