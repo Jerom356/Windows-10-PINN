@@ -57,6 +57,6 @@ Now Windows 10 will boot safely
 
 If error has appear "Windows 10 Installation Cannot Procced"
 
-Follow [Comstepr/Win-10-on-64-bit-Pi3](github.com/Comstepr/Win-10-on-64-bit-Pi3)
+Follow [Comstepr/Win-10-on-64-bit-Pi3](https://github.com/Comstepr/Win10-on-64-bit-Pi3)
 
 From 36th step
