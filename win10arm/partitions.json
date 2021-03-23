@@ -6,8 +6,7 @@
       "mkfs_options": "-F 32",
       "partition_size_nominal": 128,
       "want_maximised": false,
-      "uncompressed_tarball_size": 7,
-      "requires_partition_number": 6
+      "uncompressed_tarball_size": 7
     },
     {
       "label": "Windows",
