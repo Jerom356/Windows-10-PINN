@@ -1,12 +1,12 @@
 {
   "name": "Windows 10 Desktop",
-  "version": "2018-11-16",
+  "version": "1903",
   "release_date": "2018-11-16",
   "kernel": "4.4.50",
   "description": "Windows 10 for arm pi3 devices",
-  "url": "https://GitHub.com/JeromTWin10Lyt/Windows-10-PINN",
+  "url": "http://GitHub.com/JeromTWin10Lyt/Windows-10-PINN",
   "group": "General",
-  "supports_usb_root": false,
+  "supports_usb_boot": true,
   "supports_backup": false,
   "supported_models": [
       "Pi 3"
