@@ -61,6 +61,8 @@ Follow [Comstepr/Win-10-on-64-bit-Pi3](https://github.com/Comstepr/Win10-on-64-b
 
 From 36th step To 55th Step
 
+Note:if other error has came,try to reboot Windows 10
+
 U don't need to copy finish.reg
 
 I have already copied finish.reg in C:\Windows\finish.reg
@@ -103,3 +105,12 @@ in the command prompt to restart it.
 **Note: If entering the command does not restart Windows, restart it manually.**
 
 ##### end of lines
+
+## Credits
+Pinn https://github.com/procount/pinn
+
+Windows 10 ISO(not modified wim) https://empyreal96.github.io/Win10ARM64.html
+
+Fixing Error https://github.com/Comstepr/Win10-on-64-bit-Pi3
+
+Compressing Software https://www.7-zip.org
